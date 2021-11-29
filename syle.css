@@ -1,42 +1,56 @@
 body{
     width: 80%;
     margin:auto;
+    
 }
-header{
+.menu{
     height: 100px;
     background-color: rgb(226, 85, 191);
+    margin-bottom: 20px;
 }
 
-nav{
+.titolo{
     height: 200px;
     background-color: rgb(255, 217, 0);
-    margin-top: 1%;
+    margin-bottom: 1%;
 }
 
-.container-main{
-    background-color: rgb(10, 51, 187);
-    width: 100%;
-    content: "";
-    display: table;
-    clear: both;
-    margin-top: 1%;
+main{
+  background-color: blue;
+  
  }
 
+.title{
+    height: 100px;
+    margin-bottom: 20px;
+    background-color: cyan;
+}
+    
 .sidebar{
-    width: 12%;
+    height: 200px;
+    background-color: cyan;
     float: left;
-    background-color:rgb(71, 227, 255);
-    height: 400px;
-    margin:2% 0;   
+    width: 12%;
+   margin-bottom: 20px;
 }
 
 .content{
-    background-color:rgb(71, 227, 255);
-    width: 72%;
+    width: 72%;  
     float: left;
-    height: 400px;
-    margin: 2% 2%;
+    height: 200px;
+    background-color: cyan;
+    margin-bottom: 20px;
+     margin-left: 2%;   
+     margin-right: 2%;
 }
+    
+ .sidebar2{
+     width: 12%;
+      float: left;
+      height: 200px;
+      background-color: cyan;
+      margin-bottom: 20px;
+    }
 
 footer{
     height: 50px;
@@ -44,6 +58,8 @@ footer{
     margin-top: 1%;
 }
 
-.clearfix{
+.clearfix::after{
+content: "";
+display: table;
 clear: both;
 }
